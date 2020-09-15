@@ -1,0 +1,16 @@
+{
+  "name": "node-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --inspect app.js"
+  },
+  "dependencies": {
+    "koa": "^2.13.0",
+    "koa-route": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
